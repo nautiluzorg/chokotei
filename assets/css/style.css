@@ -1,0 +1,356 @@
+
+html {
+	position: relative;
+}
+
+body {
+	margin-bottom: 120px;
+}
+
+hr {
+	width: 250px;
+	border-top: 2px solid #999;
+}
+
+section {
+}
+
+.portfolio {
+	background-color: #eee;
+}
+
+.contact {
+	min-height: 800px;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: #333;
+	padding-top: 30px;
+}
+
+footer p {
+	color: #aaa;
+	font-size: 0.9em;
+}
+
+footer p i {
+	color: salmon;
+}
+
+#about{
+	/*margin-top:70px;*/
+}
+
+#about table{
+	
+	width:100%;
+	height:50px;
+}
+#about table tr{
+		
+}
+
+
+#about table td{
+	
+	
+	text-align:center;
+	
+}
+#about table td a{
+	
+	width:100%;
+	height:49px;
+}
+
+#draw{
+	margin-top:50px;
+}
+
+
+.jarak{
+	margin-top:5px;
+}
+.gang{
+	margin-top:20px;
+}
+
+.status{
+	font-size:6pt;
+}
+
+.mesin{
+	border:2px solid #d0d0d0;
+	padding:2px;
+}
+.keterangan{
+	
+	margin-top:20px;
+	text-align:center;
+	
+}
+
+.btn-running-machine{
+	
+	background:#18ed11;
+	color:#fff;
+}
+
+.btn-mold-installation{
+	
+	background:#3458eb;
+	color:#fff;
+	
+}
+
+.btn-mold-washing{
+	
+	background:#060663;
+	color:#fff;
+	
+}
+
+.btn-quality-problem{
+	
+	background:#ed34d1;
+	color:#fff;
+	
+}
+
+.btn-machine-problem{
+	
+	background:#97423f;
+	color:#fff;
+}
+
+.btn-material-delay{
+	
+	background:#ebac4d;
+	color:#fff;
+	
+}
+.btn-man-power{
+	
+	background:#fc0303;
+	color:#fff;
+}
+
+.btn-broken-machine{
+	
+	background:#14093d;
+	color:#fff;
+}
+
+.note{
+	font-weight:600;
+	font-size:14px;
+	margin-bottom:2px;
+}
+
+.pro-img-details{
+	width:100%;
+	height:auto;
+	padding:5px;
+	border:5px solid #d0d0d0;
+	cursor:pointer;
+}
+.pro-img-details h3{
+	text-align:center;
+	font-size:5em;
+}
+
+#about table.schedule td{
+	
+	
+	text-align:left;
+	
+}
+
+
+/*panel*/
+.panel {
+    border: none;
+    box-shadow: none;
+}
+
+.panel-heading {
+    border-color:#eff2f7 ;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.panel-title {
+    color: #2A3542;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*product list*/
+
+.prod-cat li a{
+    border-bottom: 1px dashed #d9d9d9;
+}
+
+.prod-cat li a {
+    color: #3b3b3b;
+}
+
+.prod-cat li ul {
+    margin-left: 30px;
+}
+
+.prod-cat li ul li a{
+    border-bottom:none;
+}
+.prod-cat li ul li a:hover,.prod-cat li ul li a:focus, .prod-cat li ul li.active a , .prod-cat li a:hover,.prod-cat li a:focus, .prod-cat li a.active{
+    background: none;
+    color: #ff7261;
+}
+
+.pro-lab{
+    margin-right: 20px;
+    font-weight: normal;
+}
+
+.pro-sort {
+    padding-right: 20px;
+    float: left;
+}
+
+.pro-page-list {
+    margin: 5px 0 0 0;
+}
+
+.product-list img{
+    width: 100%;
+    border-radius: 4px 4px 0 0;
+    -webkit-border-radius: 4px 4px 0 0;
+}
+
+.product-list .pro-img-box {
+    position: relative;
+}
+.adtocart {
+    background: #fc5959;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    text-align: left;
+    border: 3px solid #fff;
+    left: 45%;
+    bottom: -25px;
+    position: absolute;
+}
+
+.pro-title {
+    color: #5A5A5A;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.product-list .price {
+    color:#fc5959 ;
+    font-size: 15px;
+}
+
+
+.pro-img-details h2{
+	text-align:center;
+	font-size:2.5em;
+	font-weight:600
+}
+
+.pro-img-details img {
+    width: 100%;
+}
+
+.pro-d-title {
+    font-size: 25px;
+	font-weight:700;
+    margin-top: 0;
+}
+
+.product_meta {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    margin: 5px 0;
+}
+.dl-horizontal dt{
+	
+	text-align:left;
+	
+}
+
+.product_meta span {
+    display: block;
+    
+}
+.product_meta a, .pro-price{
+    color:#fc5959 ;
+}
+
+.pro-price, .amount-old {
+    font-size: 18px;
+    padding: 0 10px;
+}
+
+.amount-old {
+    text-decoration: line-through;
+}
+
+.quantity {
+    width: 120px;
+}
+
+.pro-img-list {
+    margin: 10px 0 0 -15px;
+    width: 100%;
+    display: inline-block;
+}
+
+.pro-img-list a {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.pro-d-head {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+fieldset.scheduler-border {
+    border: 2px groove #ddd !important;
+    padding: 0 1.4em 1.4em 1.4em !important;
+    -webkit-box-shadow:  0px 0px 0px 0px #000;
+            box-shadow:  0px 0px 0px 0px #000;
+}
+
+legend.scheduler-border {
+        font-size: 1.3em !important;
+        font-weight: bold !important;
+        text-align: center !important;
+        width:auto;
+        padding:0 5px;
+        border-bottom:none;
+    }
+table .report{
+	
+	font-size:9pt;
+}
+.no-mc{
+	font-size:40px;
+	color:#fff;
+	
+}
+
